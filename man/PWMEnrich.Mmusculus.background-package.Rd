@@ -10,6 +10,7 @@
 \alias{PWMPvalueCutoff1e2.mm9.MotifDb.Mmus}
 \alias{PWMPvalueCutoff1e3.mm9.MotifDb.Mmus}
 \alias{PWMPvalueCutoff1e4.mm9.MotifDb.Mmus}
+\alias{mm9.upstream2000}
 \docType{package}
 
 \title{
@@ -51,6 +52,9 @@
 \details{
 	All of these objects were created with the appropriate functions available in the \code{PWMEnrich} package (see Section 'See also'). We
 	recommend using these functions to generate backgrounds for a custom set of background sequences and/or DNA motifs. 
+	
+	This package also contains the 2kb upstream sequences for mouse genes (\code{mm9.upstream2000}) which were removed from the BSgenome.Mmusculus.UCSC.mm9 package
+	starting from Bioconductor version 3.0. 
 }
 
 \examples{
