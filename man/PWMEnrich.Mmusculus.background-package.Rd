@@ -60,7 +60,8 @@
 \examples{
 	data(PWMLogn.mm9.MotifDb.Mmus)
 	
-	res = motifEnrichment(DNAString("TGCATCAAGTGTGTAGTGCAAGTGAGTGATGAATGC"), PWMLogn.mm9.MotifDb.Mmus)
+	res = motifEnrichment(DNAString("TGCATCAAGTGTGTAGTGCAAGTGAGTGATGAATGC"), 
+	  PWMLogn.mm9.MotifDb.Mmus)
 	
 	groupReport(res)[1:10]
 }
